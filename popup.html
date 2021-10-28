@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Focus</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+        <style>
+            body{
+                min-width: 250px;
+                min-height: 300px;
+            }
+            .container{
+                margin-top: 20px;
+            }
+            #heading{
+                text-align: center;
+            }
+            #fb h5{
+                color: #4267B2;
+            }
+            #ig h5{
+                color: #C13584;
+            }
+            #tt h5{
+                color: #00ACEE;
+            }
+            #yt h5{
+                color: #FF0000;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Logo heading -->
+            <header id="heading">
+                <h3 style="font-family:'Comic Sans MS';">
+                    <img src="icon32.png"/>
+                    &nbsp;<strong>Focus</strong>
+                </h3>
+            </header><br/>
+
+            <!-- Counters for all 4 hostnames -->
+            <div class="row" id="fb">
+                <div class="col">
+                    <h5>Facebook </h5>
+                </div>
+                <div class="col">
+                    <span id="fdTime"><em>Loading...</em></span>
+                </div>
+            </div><br/>
+            <div class="row" id="ig">
+                <div class="col">
+                    <h5>Instagram </h5>
+                </div>
+                <div class="col">
+                    <span id="idTime"><em>Loading...</em></span>
+                </div>
+            </div><br/>
+            <div class="row" id="tt">
+                <div class="col">
+                    <h5>Twitter </h5>
+                </div>
+                <div class="col">
+                    <span id="tdTime"><em>Loading...</em></span>
+                </div>
+            </div><br/>
+            <div class="row" id="yt">
+                <div class="col">
+                    <h5>Youtube </h5>
+                </div>
+                <div class="col">
+                    <span id="ydTime"><em>Loading...</em></span>
+                </div>
+            </div><br/>
+        </div>
+        <script src="jquery-3.5.1.min.js"></script>
+        <script src="popup.js"></script>
+    </body>
+</html>
